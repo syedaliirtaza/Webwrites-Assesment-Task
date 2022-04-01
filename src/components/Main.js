@@ -7,7 +7,6 @@ function Main() {
     <div className='grid place-items-center mt-[100px]'>
     <Postcard />
     <Postscomponent />
-    <Postscomponent />
     </div>
   )
 }

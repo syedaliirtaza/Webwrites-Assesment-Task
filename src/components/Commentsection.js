@@ -4,7 +4,8 @@ import {
     DotsHorizontalIcon
 } from '@heroicons/react/outline'
 
-function Commentsection() {
+function Commentsection({comment}) {
+    console.log(comment)
   return (
     <div className='p-2 mt-2'>
         <div className='post comments mt-4'>
@@ -19,7 +20,7 @@ function Commentsection() {
                 </div> 
             </div>
             <div className='p-2'>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit semper, phasellus sociis quam praesent suspendisse suscipit fringilla</p>
+                <p>{comment.text}</p>
             </div>
 
         </div>
